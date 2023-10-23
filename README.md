@@ -4,3 +4,10 @@ Audio signals can be depicted through various representations, ranging from raw 
 We employ the U-Net architecture—a Deep Convolutional Autoencoder augmented with symmetric skip connections. Originally conceived for the realm of Biomedical Image Segmentation, we have innovatively repurposed the U-Net to cater to the task of spectrogram denoising.
 
 For the network's ingress, we utilize the magnitude spectrograms derived from perturbed vocal signals. Concomitantly, the egress of the network is designed to model the Noise Residual, determined by the difference between the magnitude spectrograms of the noisy and pristine voices. To ensure the data's compatibility with our model's architecture and to enhance training stability, both the ingress and egress matrices undergo a comprehensive global scaling, ensuring their values lie within the bounded range of -1 to 1.
+
+
+## Dataset and training 
+
+I provide the implementation in both Pytorch and Tensorflow.
+
+The dataset used in this roject is a private one from [Thales](https://www.thalesgroup.com/fr), so unfortunately I cannot share it. However, the principles of this work could be applied to any similar setting. 
