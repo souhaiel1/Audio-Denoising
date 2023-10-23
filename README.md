@@ -12,4 +12,4 @@ I provide the implementation in both Pytorch and Tensorflow.
 
 The dataset used in this roject is a private one from [Thales](https://www.thalesgroup.com/fr), so unfortunately I cannot share it. However, the principles of this work could be applied to any similar setting. 
 
-![](assests/predicted_vs_gt_truth.png)
+![](assets/predicted_vs_gt_truth.png)
